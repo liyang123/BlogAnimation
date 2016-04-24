@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B64E85FF1CCC6F2A00D04E82 /* WelcomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B64E85FE1CCC6F2A00D04E82 /* WelcomeView.m */; };
+		B64E86011CCC6F3500D04E82 /* WelcomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B64E86001CCC6F3500D04E82 /* WelcomeView.xib */; };
 		B68E35C01CCB715600682AE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B68E35BF1CCB715600682AE5 /* main.m */; };
 		B68E35C31CCB715600682AE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B68E35C21CCB715600682AE5 /* AppDelegate.m */; };
 		B68E35C61CCB715600682AE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B68E35C51CCB715600682AE5 /* ViewController.m */; };
@@ -36,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B64E85FD1CCC6F2A00D04E82 /* WelcomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeView.h; sourceTree = "<group>"; };
+		B64E85FE1CCC6F2A00D04E82 /* WelcomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeView.m; sourceTree = "<group>"; };
+		B64E86001CCC6F3500D04E82 /* WelcomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeView.xib; sourceTree = "<group>"; };
 		B68E35BB1CCB715600682AE5 /* BlogAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlogAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B68E35BF1CCB715600682AE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B68E35C11CCB715600682AE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -107,6 +112,9 @@
 				B68E35C21CCB715600682AE5 /* AppDelegate.m */,
 				B68E35C41CCB715600682AE5 /* ViewController.h */,
 				B68E35C51CCB715600682AE5 /* ViewController.m */,
+				B64E85FD1CCC6F2A00D04E82 /* WelcomeView.h */,
+				B64E85FE1CCC6F2A00D04E82 /* WelcomeView.m */,
+				B64E86001CCC6F3500D04E82 /* WelcomeView.xib */,
 				B68E35C71CCB715600682AE5 /* Main.storyboard */,
 				B68E35CD1CCB715600682AE5 /* Assets.xcassets */,
 				B68E35CF1CCB715600682AE5 /* LaunchScreen.storyboard */,
@@ -247,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B68E35D11CCB715600682AE5 /* LaunchScreen.storyboard in Resources */,
+				B64E86011CCC6F3500D04E82 /* WelcomeView.xib in Resources */,
 				B68E35CE1CCB715600682AE5 /* Assets.xcassets in Resources */,
 				B68E35C91CCB715600682AE5 /* Main.storyboard in Resources */,
 			);
@@ -273,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B64E85FF1CCC6F2A00D04E82 /* WelcomeView.m in Sources */,
 				B68E35C61CCB715600682AE5 /* ViewController.m in Sources */,
 				B68E35C31CCB715600682AE5 /* AppDelegate.m in Sources */,
 				B68E35CC1CCB715600682AE5 /* BlogAnimation.xcdatamodeld in Sources */,
@@ -500,6 +510,7 @@
 				B68E35ED1CCB715600682AE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B68E35EE1CCB715600682AE5 /* Build configuration list for PBXNativeTarget "BlogAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +519,7 @@
 				B68E35F01CCB715600682AE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B68E35F11CCB715600682AE5 /* Build configuration list for PBXNativeTarget "BlogAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +528,7 @@
 				B68E35F31CCB715600682AE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
